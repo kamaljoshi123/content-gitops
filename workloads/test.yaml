@@ -6,7 +6,7 @@ metadata:
   name: pgweb
 spec:
   containers:
-    - image: docker pull sosedoff/pgweb
+    - image: sosedoff/pgweb
       name: pgweb
       ports:
         - containerPort: 8081
